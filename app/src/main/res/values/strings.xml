@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Geo Location Weather</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error_request">Error request</string>
+    <string name="formatTemperature">%s °C</string>
+</resources>
