@@ -5,7 +5,8 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".presentation.ui.WeatherActivity">
+    tools:context=".presentation.ui.WeatherActivity"
+    android:background="@color/colorBlue">
 
     <TextView
         android:id="@+id/tv_city"
@@ -13,7 +14,8 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-condensed-medium"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        tools:text="Moscow" />
+        tools:text="Moscow"
+        android:textColor="@color/colorWhite"/>
 
     <TextView
         android:id="@+id/tv_weather"
@@ -22,7 +24,8 @@
         android:layout_marginTop="8dp"
         android:fontFamily="sans-serif-condensed-medium"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        tools:text="15" />
+        tools:text="15"
+        android:textColor="@color/colorWhite"/>
 
     <TextView
         android:id="@+id/tv_description"
@@ -31,7 +34,8 @@
         android:layout_marginTop="8dp"
         android:fontFamily="sans-serif-condensed-medium"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        tools:text="Облачно" />
+        tools:text="Облачно"
+        android:textColor="@color/colorWhite"/>
 
     <ImageView
         android:id="@+id/iv_weather"
@@ -44,6 +48,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-condensed-medium"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        tools:text="Moscow" />
+        tools:text="Kutuzovsky avenue 31"
+        android:textColor="@color/colorWhite"/>
 
 </LinearLayout>
